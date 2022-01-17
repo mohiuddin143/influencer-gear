@@ -45,6 +45,12 @@ header h1{
 /*---------------------
       2nd section
 ---------------------- */
+.Collection-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    background-color: #aaaaaa31;
+}
 
 .popular-Collection{
     font-size: 25px;
@@ -53,14 +59,15 @@ header h1{
 }
 .item img{
     width: 94%;
-    padding: 3% 3%;
+    padding: 0% 3%;
     border-radius: 5px;
 }
 .item{
     color: #18191F;
+    background-color: white;
     width: 356px;
     height: 490px;
-    border: 1px solid red;
+    padding: 0;
     border-radius: 5px;
 }
 .item h2{
