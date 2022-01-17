@@ -87,3 +87,24 @@ header h1{
 .item p{
     padding-left: 10px;
 }
+
+/* ---------Footer start -----------*/
+footer{
+    padding: 20px;
+    color: white;
+    background-color: #0A0826;
+    text-align: center;
+}
+footer h3{
+    font-family: Poppins;
+    font-size: 24px;
+}
+footer p{
+    font-size: 15px;
+}
+.social-icons i{
+    color: white;
+    font-size: x-large;
+    padding: 9px;
+}
+/* -----------Footer End------------ */
